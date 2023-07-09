@@ -4,7 +4,7 @@
 }
 
 nav {
-    padding: 0px 230px;
+    padding: 0px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,4 +17,48 @@ nav {
 }
 .menu-item{
     display: flex;
+    list-style: none;
+}
+.menu-item >li > a{
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.banner-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/image/background.jpg'), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.banner-tittle{
+    font-size: 85px;
+    font-weight: bold;
+    color: white;
+}
+.digi{
+    color: red;
+}
+.banner-description{
+    margin: 0 20%;
+    font-size: 20px;
+    padding: 15px 0;
+    color: white;
+}
+.btn{
+    background-color: red;
+    padding: 15px 20px;
+    margin: 0 10px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
