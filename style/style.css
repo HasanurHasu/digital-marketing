@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    padding: 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
